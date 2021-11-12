@@ -20,7 +20,9 @@
                 </ul>
             </nav>
         </header>
-        
+        <div class="social-header">
+           
+        </div>
     </div>
 
     <div class="hero">
@@ -109,7 +111,7 @@
     </section>
 <!-- 2 -->
     <section class="portfolio">
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition4">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">We the people</p>
@@ -122,7 +124,7 @@
     </section>
 <!-- 3 -->
     <section class="portfolio">
-        <div class="portfolio-container transition3">
+        <div class="portfolio-container transition5">
             <div class="portfolio-left">
                 <div class="inner">
                     <p class="subtitle">We the people</p>
@@ -187,9 +189,9 @@
             stagger: .3
         })
 
-        gsap.from(".transition3", {
+        gsap.from(".transition4", {
             scrollTrigger: {
-                trigger: '.transition2',
+                trigger: '.transition3',
                 start: "top bottom"
             },
             y: 50,
@@ -197,6 +199,18 @@
             duration: 2,
             stagger: .3
         })
+
+        gsap.from(".transition5", {
+            scrollTrigger: {
+                trigger: '.transition4',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 2,
+            stagger: .3
+        })
+
     </script>
 
 </body>
