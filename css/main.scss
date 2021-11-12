@@ -311,3 +311,17 @@ section {
         padding: 9em 20em 6em 20em;
     }
 }
+
+.circle {
+    animation: ellipseAnim 1s infinite alternate-reverse;
+}
+
+@keyframes ellipseAnim {
+    form {
+         transform: translate(250px, 714px);
+         z-index: 5;
+    }
+    to {
+        transform: translate(250px, 763px);
+   }
+}

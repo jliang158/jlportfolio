@@ -315,4 +315,32 @@ section {
     padding: 9em 20em 6em 20em;
   }
 }
+
+.circle {
+  animation: ellipseAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes ellipseAnim {
+  form {
+    -webkit-transform: translate(250px, 714px);
+            transform: translate(250px, 714px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(250px, 763px);
+            transform: translate(250px, 763px);
+  }
+}
+
+@keyframes ellipseAnim {
+  form {
+    -webkit-transform: translate(250px, 714px);
+            transform: translate(250px, 714px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(250px, 763px);
+            transform: translate(250px, 763px);
+  }
+}
 /*# sourceMappingURL=main.css.map */
