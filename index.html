@@ -61,12 +61,12 @@
         <div class="left">
             <div class="inner transition2">
                 <p class="subtitle">Featured project</p>
-                <a href="#" class="featured-title">Wii project</a>
+                <a href="#" class="featured-title">Save Our Date Wedding invitations</a>
 
-                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, maiores.</p>
+                <p class="featured-desc">Simple Wedding invitation for family and friends</p>
             </div>
         </div>
-        <img class="right transition2" src="images/wii.png" alt="Featured Project">
+        <img class="right transition2" src="images/photo5.png" alt="Featured Project">
     </section>
 
     <section class="skills">
@@ -74,21 +74,21 @@
             <ul>
                 <li class="transition2">
                     <div class="icon-container one">
-                        <img src="images/icon-ux4.svg" alt="UI/UX Icon">
+                        <img src="images/icon-uiux.svg" alt="UI/UX Icon">
                     </div>
                     <p class="skill-title">UI UX Design</p>
                     <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, esse!</p>
                 </li>
                 <li class="transition2">
                     <div class="icon-container two">
-                        <img src="images/frontend4.svg" alt="UI/UX Icon">
+                        <img src="images/frontend.svg" alt="UI/UX Icon">
                     </div>
                     <p class="skill-title">Frontend Development</p>
                     <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, esse!</p>
                 </li>
                 <li class="transition2">
                     <div class="icon-container three">
-                        <img src="images/graphic4.svg" alt="UI/UX Icon">
+                        <img src="images/graphicdesign.svg" alt="UI/UX Icon">
                     </div>
                     <p class="skill-title">Graphic Design</p>
                     <p class="featured-desc skill-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, esse!</p>
@@ -101,7 +101,7 @@
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="subtitle">We the people</p>
+                    <p class="subtitle">Poster recreation</p>
                     <p class="featured-title">We the people</p>
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque accusamus ipsa porro maiores voluptas deserunt!</p> 
                 </div>
@@ -114,12 +114,12 @@
         <div class="portfolio-container transition4">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="subtitle">We the people</p>
-                    <p class="featured-title">We the people</p>
+                    <p class="subtitle">Font Creation</p>
+                    <p class="featured-title">Pixel Form</p>
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque accusamus ipsa porro maiores voluptas deserunt!</p> 
                 </div>
             </div>
-            <a href="#"><img src="images/wethepeople.jpg" alt="We the People"></a>
+            <a href="#"><img src="images/pxform/1.png" alt="Pixel form font"></a>
         </div>
     </section>
 <!-- 3 -->
@@ -127,15 +127,41 @@
         <div class="portfolio-container transition5">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="subtitle">We the people</p>
-                    <p class="featured-title">We the people</p>
+                    <p class="subtitle">Data Analysis/Visualization</p>
+                    <p class="featured-title">Wii 2.0</p>
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque accusamus ipsa porro maiores voluptas deserunt!</p> 
                 </div>
             </div>
-            <a href="#"><img src="images/wethepeople.jpg" alt="We the People"></a>
+            <a href="#"><img src="images/wii.png" alt="We the People"></a>
         </div>
     </section>
 
+    <!-- 4 -->
+    <section class="portfolio">
+        <div class="portfolio-container transition6">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Book Recreation</p>
+                    <p class="featured-title">Barries to Latinos'</p>
+                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque accusamus ipsa porro maiores voluptas deserunt!</p> 
+                </div>
+            </div>
+            <a href="#"><img src="images/typeonly/1.jpg" alt="Barries to Latinos'" style="border-style:groove; color:azure;"></a>
+        </div>
+    </section>
+    <!-- 5 -->
+    <section class="portfolio">
+        <div class="portfolio-container transition7">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="subtitle">Application Process Book</p>
+                    <p class="featured-title">Convene</p>
+                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque accusamus ipsa porro maiores voluptas deserunt!</p> 
+                </div>
+            </div>
+            <a href="#"><img src="images/processbook/PB-01.jpg" alt="Convene"></a>
+        </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js" integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -201,6 +227,28 @@
         })
 
         gsap.from(".transition5", {
+            scrollTrigger: {
+                trigger: '.transition4',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 2,
+            stagger: .3
+        })
+
+        gsap.from(".transition6", {
+            scrollTrigger: {
+                trigger: '.transition4',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 2,
+            stagger: .3
+        })
+
+        gsap.from(".transition7", {
             scrollTrigger: {
                 trigger: '.transition4',
                 start: "top bottom"
