@@ -322,25 +322,25 @@ section {
 
 @-webkit-keyframes ellipseAnim {
   form {
-    -webkit-transform: translate(250px, 714px);
-            transform: translate(250px, 714px);
+    -webkit-transform: translate(251px, 714px);
+            transform: translate(251px, 714px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(250px, 763px);
-            transform: translate(250px, 763px);
+    -webkit-transform: translate(251px, 763px);
+            transform: translate(251px, 763px);
   }
 }
 
 @keyframes ellipseAnim {
   form {
-    -webkit-transform: translate(250px, 714px);
-            transform: translate(250px, 714px);
+    -webkit-transform: translate(251px, 714px);
+            transform: translate(251px, 714px);
     z-index: 5;
   }
   to {
-    -webkit-transform: translate(250px, 763px);
-            transform: translate(250px, 763px);
+    -webkit-transform: translate(251px, 763px);
+            transform: translate(251px, 763px);
   }
 }
 /*# sourceMappingURL=main.css.map */
