@@ -27,6 +27,10 @@ img {
   color: white;
 }
 
+.nav-container a:hover {
+  color: #5F3B71;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -285,6 +289,25 @@ section {
     float: right;
     max-width: 500px;
   }
+}
+
+footer {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+footer button {
+  color: #5F3B71;
+  border: none;
+  font-family: raleway;
+  font-weight: 900;
+  padding: 1em;
+  background-color: white;
+  font-size: 1em;
+}
+
+footer button:hover {
+  color: #204184;
 }
 
 @media only screen and (min-width: 1250px) {

@@ -24,6 +24,9 @@ img {width: 100%;}
     a {
         color: white;
     }
+    a:hover {
+        color:#5F3B71;
+    }
 }
 
 header {
@@ -280,6 +283,27 @@ section {
         max-width: 500px;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 0.5em 0;
+
+    button {
+        color: #5F3B71;
+        border: none;
+        font-family: raleway;
+        font-weight: 900;
+        padding: 1em ;
+        background-color: white;
+        font-size: 1em;
+    }
+
+    button:hover {
+        color: #204184;
+    }
+}
+
+
 
 @media only screen and (min-width: 1250px) {
 
