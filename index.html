@@ -10,21 +10,17 @@
 
     <div class="nav-container">
         <header>
-            <a href="index.html" class="logo">Jonathan Liang</a>
+            <a href="/" class="logo">Jonathan Liang</a>
 
             <nav>
                 <ul>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="/">Portfolio</a></li>
                     <li><a href="#">Resume</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="social-header">
-            <ul>
-                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-            </ul>
-        </div>
+        
     </div>
 
     <div class="hero">
@@ -177,6 +173,17 @@
             y: 50,
             opacity: 0,
             duration: 1.2,
+            stagger: .3
+        })
+
+        gsap.from(".transition3", {
+            scrollTrigger: {
+                trigger: '.transition2',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 2,
             stagger: .3
         })
 
