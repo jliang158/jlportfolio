@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="588" viewBox="0 0 440 588">
+  <g id="graphic" transform="translate(-240 -2112)">
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(240 2112)" fill="#fff" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="440" height="588" rx="28" stroke="none"/>
+      <rect x="0.5" y="0.5" width="439" height="587" rx="27.5" fill="none"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M457,2606.061l45.527-26.179,50.807-29.215h-128l31.667,24Z" transform="translate(-29.333 -267)" fill="none" stroke="rgba(112,112,112,0)" stroke-width="4"/>
+    <text id="Graphic_Design" data-name="Graphic Design" transform="translate(385 2413)" font-size="20" font-family="Raleway-Black, Raleway" font-weight="800"><tspan x="0" y="0">Graphic Design</tspan></text>
+    <text id="Lorem_Ipsum_is_simply_typesetting_industry._Lorem_Ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book._It_has_survived_not_only_five_centuries_" data-name="Lorem Ipsum is simply typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," transform="translate(308 2456)" font-size="20" font-family="Raleway-Medium, Raleway" font-weight="500"><tspan x="47.4" y="19">Lorem Ipsum is simply </tspan><tspan x="23.98" y="59">typesetting industry. Lorem </tspan><tspan x="12.7" y="99">Ipsum has been the industry&apos;s </tspan></text>
+  </g>
+</svg>
